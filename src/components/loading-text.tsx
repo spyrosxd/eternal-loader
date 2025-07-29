@@ -37,7 +37,7 @@ export const LoadingText = ({ className }: { className?: string }) => {
               className="text-xs sm:text-base md:text-xl lg:text-3xl font-bold"
               style={{ whiteSpace: "nowrap" }}
             >
-              <span className="text-black">{randomLoadingMessages[index]}</span>
+              <span className="text-white drop-shadow-md">{randomLoadingMessages[index]}</span>
             </div>
           </motion.div>
         )}
